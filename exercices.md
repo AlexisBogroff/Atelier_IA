@@ -1,4 +1,4 @@
-# Exercices
+# Exercices Spécifiques
 *Générés par ChatGPT, légèrement modifiés*
 
 **Journalistes et Rédacteurs**
