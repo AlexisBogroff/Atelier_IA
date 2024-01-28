@@ -134,6 +134,8 @@
 
 ### Exercices
 
+Veuillez effectuer les exercices communs suivants
+
 #### Traduction
 **Objectif** : découvrir l'excellence du modèle en terme d'**interprétation du langage** et connaissance des **formulations dans différentes langues**. Il ne s'agit pas d'une traduction littérale.
 
@@ -146,8 +148,8 @@
 **Ojbectif** : appréhender le niveau (mitigé) de créativité du modèle
 
 **Mission**
-- Demander la génération d'un texte  (e.g. )
-- Récupérer 
+- Demander à ChatGPT de générer des textes pour : un titre d'article, la description d'un sport, un poème, une blague.
+- Essayez d'améliorer les résultats en conseillant ChatGPT
 
 #### Assistant
 
@@ -157,6 +159,9 @@
 - Générer un plan pour un entretien avec sportif : le prompt doit utiliser la structure rôle, contexte, tâche, contraintes, format
 - Demander de modifier le plan pour qu'il corresponde davantage aux besoins
 - Demander de développer une section du plan
+
+#### Exercices spécifiques
+[Clicker ce lien : Enoncé exercices spécifiques](exercices.md)
 
 
 ------------------------------------------------------------------------
