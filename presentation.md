@@ -185,16 +185,27 @@ Veuillez effectuer les exercices communs suivants
 - Certaines tâches pourraient tendre à disparaître
 - D'autres seront effectuées de manière plus **fréquente**, **large** et **en profondeur**
 
-#### Limites
-*Liste générée par ChatGPT*
-- **Informations temps réel** : Avril 2023
-- **Compréhension limitée** : Interprétation émotions, nuances humaines complexes, langages non textuels (comme les gestes), contextes sociaux et culturels complexes.
-- **Loi** : Restrictions légales et éthiques, y compris le respect du droit d'auteur, de la vie privée.
-- **Impersonnalité** : Absence d'opinions personnelles, de croyances, d'émotions humaines, et d'expérience personnelle.
-- **Erreurs** : Risque d'erreurs, d'informations obsolètes ou biaisées dues aux limites des données d'entraînement.
-- **Domaines risqués** : Incapacité à fournir des conseils médicaux, juridiques ou financiers professionnels
-- **Inaction** : Incapacité à effectuer des tâches directement ou à effectuer des actions physiques ou interagir directement avec l'environnement.
-- **Clarté prompt requise** : Besoin d'instructions claires et précises pour fournir des réponses adéquates, et risque de mal interpréter des questions ambiguës ou spécialisées.
+
+#### LIMITES
+- Risque de vous distraire, peut être utile de voir ce que vous pouvez créer avant de l'utiliser, car risque d'avoir notre vision enfermée dans ses propositions.
+- **Biais**: racisme, sexisme, ne connait que la culture occidentale, et tout biais qu'on peut retrouver sur internet
+- **Cognition limitée** : chatgpt3.5, manque de compréhension des subtilités
+- **Hallucinations** : surtout chatgpt3.5
+- **Taille de contexte limitée** : pre-contexte prend de plus en plus de place, en se basant sur nos préférences, etc, donc on ne peut pas donner un ensemble de livres complets en contexte
+- **Taille de discussions limitée** : devient très lent (complexité quadratique)
+- **Oubli milieu de discussion** : difficile à percevoir mais démontré par études
+- **Retard de mise à jour** : informations actuellement connues jusqu'en mars 2023s
+- **Créativité limitée** : risque de boucler, ou dire des choses étranges (sur des requêtes de blagues par exemple)
+- **Limité dans ses connaissances et sa compréhension** si sujet nécessite expertise pointue, d'autant plus sur un domaine où très peu d'informations sont disponibles sur internet 
+- **Oubli** (majoritairement) entre chaque conversations, donc ne peut pas rivaliser avec un humain sur des discussions de plus de 50 messages (sur les versions actuelles)
+- **Ne peut pas apprendre en temps réel**, inutile d'essayer de lui enseigner un concept pour qu'il le connaisse (surtout en espérant retrouver dans d'autres discussions)
+- **Confidentialité des données** : RGPD (personnes, entreprise)
+- **Capacité limitée à interpréter les émotions** : N'a pas été fine tuneé pour être psychologue ou être un ami qui remonte le moral
+- **Risque de contenu offensant** : même si arrive surtout lorsque l'utilisateur souhaite volontairement jail breaker les gardes fous
+- **Bridé dans ses réponses** : précisément pour éviter les problèmes (n'est pas censé donner de conseils financiers, santé, etc). Mais jail breakable facilement (méthode "imagine ...", méthode via manipulation)
+- **Dépendance langage d'entrée** : comprend et parle mieux l'anglais que toute autre langue. Très limité dans les langues peu représentées sur internet
+- **Limitations en pensée abstraite** : Même si deja très avancé, compliqué pour des métaphores bien adaptée (mais bon pour exemples, puisque ne nécessite pas le même degré d'abstraction)
+
 
 #### Evolutions techniques à venir **<b>1min</b>**
 - mémoire, compréhension, actualisation, intégration applications 
