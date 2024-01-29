@@ -2,104 +2,171 @@
 
 ### Déroulement
 
-**Introduction** **<g>10 min</g>**
-- Présentation objectifs **<b>2 min</b>**
-- Votre mentor du jour **<b>2min</b>**
-- Présentation du plan **<b>1 min</b>**
-- Présentation de ChatGPT **<b>5min</b>**
-  - **Fonctionnement**
-    - Global : Entrainement modèle vs utilisation **<b>2min</b>**
-    - Technique : Prompt, contexte, embeddings, calculs **<b>2min</b>**
-    - A retenir : discussion courtes, contextes riches et précis **<b>30s</b>**
-  - 3.5 vs 4 : limitations utilisation **<b>30s</b>**
+**Introduction**                            **<g>3 min</g>**
+- Présentation objectifs                    **<b>30s</b>**
+- Votre mentor du jour                      **<b>1min</b>**
+- Présentation du plan                      **<b>30s</b>**
+- Vocabulaire ChatGPT                       **<b>1min</b>**
 
-**Demonstrations** **<g>20 min</g>**
-- Cas n°1 : Génération de contenu           **<b>4min</b>**
-- Cas n°2 : Vision et résumé de documents   **<b>6min</b>**
-- Cas n°3 : Génération d'images             **<b>3min</b>**
-- Cas n°4 : Apprentissage                   **<b>4min</b>**
-- Cas n°5 : Code no-code                    **<b>3min</b>**
+**Demonstrations**                          **<g>26 min</g>**
+- Cas n°0 : Utilisation de ChatGPT          **<b>6min</b>**
+- Cas n°1 : Apprentissage                   **<b>4min</b>**
+- Cas n° : Génération de contenu           **<b>4min</b>**
+- Cas n° : Code no-code                    **<b>3min</b>**
+- Cas n° : Vision et résumé de documents   **<b>6min</b>**
+- Cas n° : Génération d'images             **<b>3min</b>**
 
-**Exercices** **<g>50 min</g>**
-- Ex. n°1 : Traduction **<b>5</b>**
-- Ex. n°2 : Génération de contenu **<b>5</b>**
-- Ex. n°3 : Assistant **<b>5</b>**
-- Ex. n°4 : Apprentissage **<b>5</b>**
-- Exercices spécifiques **<b>30</b>**
+**Exercices**                               **<g>1 h</g>**
+- Ex. n°1 : Traduction                      **<b>5min</b>**
+- Ex. n°2 : Génération de contenu           **<b>5min</b>**
+- Ex. n°3 : Assistant                       **<b>5min</b>**
+- Ex. n°4 : Apprentissage                   **<b>5min</b>**
+- Exercices spécifiques                     **<b>40min</b>**
 
-**Conclusion** **<g>8 min</g>**
-- Evolutions Journalisme x AI **<b>4min</b>**
-- Evolutions techniques à venir : mémoire, compréhension, actualisation, intégration applications **<b>1min</b>**
-- Au-delà du no-code: APIs, RAG et Fine-tuning **<b>3 min</b>**
+**Conclusion**                              **<g>7 min</g>**
+- Limites ChatGPT                           **<b>5min</b>**
+- Alternatives ChatGPT                      **<b>2min</b>**
 
-**Ressources** **<g>2 min</g>**
-- Apprendre **<b>30s</b>**
-- Être à jour **<b>30s</b>**
-- Outils **<b>1min</b>**
+**Ressources**
+
 
 
 
 ------------------------------------------------------------------------
 
 
-### Introduction **<g>13 min</g>**
+### Introduction **<g>3 min</g>**
 
 
-#### Objectifs **<b>1 min</b>**
+#### Objectifs **<b>30s</b>**
 - **Prise en main** de ChatGPT
-- **Connaissances** possibilités, limites **<o>LLMs</o>** (**L<o>arge</o>L<o>anguage</o> M<o>odels</o>**)
-- **Compréhension** globale fonctionnement LLM
-- **Intuitions** impact IA sur métiers
+- **Connaissances** possibilités, limites
 
-#### Mentor du jour **<b>2min</b>**
+#### Mentor du jour **<b>1min</b>**
 - **Enseignant** IA et Data Science (+ 5 ans)
 - Ecole ingénieur, Université, Centres de formation
 - Premières certifications IA 2017 (7 ans)
 - Programmation (VBA Excel, Python) il y a 7-15 ans
 - Pourquoi IA me passionne ?
 
-#### Présentation de ChatGPT **<b>10min</b>**
-**Global : Entrainement modèle vs utilisation (inférence)** **<b>3min</b>**
-- **Modèle** : métaphore apprentissage humain = entraînement cerveau sur données = 5 sens
-- **Données** :
-  - texte
-  - large partie d'internet et livres
-  - représentativité monde limitée (occident, faible pourcentage personnes s'expriment sur internet)
-- **Entrainement** = beaucoup de données et de calculs (millions d'euros)
-- **Utilisation** = peu de données et de calculs (centimes)
-
-**Technique : Prompt, contexte, embeddings, calculs** **<b>5min</b>**
-- **Prompt** : La demande
-- **Contexte** : La demande **<o>+</o>** demandes précédentes **<o>+</o>** fichiers
-- **Embeddings** : Texte transformé en listes de chiffres avec notion de **similarité** entre les listes
-- **Calculs** : Next token prediction, Transformers (GPT), complexité quadratique
-
-**A retenir : discussion courtes, contextes riches et précis** **<b>30s</b>**
-- **Discussions taille limitée** car complexité quadratique + problèmes de mémoire
-- **Contextes très détaillés** car modèles généralistes, obtenus en pratique via discussion
-
-**ChatGPT 3.5 vs 4** **<b>1min30s</b>**
-| Version | Usage | Capacités compréhension | Multimodal |
-| - | - | - | - |
-| **<o>3.5</o>** | sans limite | modérées | non |
-| **<o>4</o>** | limité | très bonnes | oui (accès internet, lecture de document, d'images, génération d'images) |
-| Mistral | variable | bonnes | non |
-
+**Vocabulaire : Prompt, contexte** **<b>1min</b>**
+- **Prompt** : La demande, ce que vous écrivez à ChatGPT
+- **Contexte** : La demande **<o>+</o>** demandes précédentes **<o>+</o>** fichiers éventuellement
 
 
 ------------------------------------------------------------------------
 
 
 
-### Démonstrations **<g>20 min</g>**
+### Démonstrations **<g>30 min</g>**
 
-#### Cas 1 - Génération de contenu - [Revivre match France-Brésil 98](https://chat.openai.com/share/b36f982a-5b5a-496f-9b9a-d4c9858c736e) **<b>3min</b>**
+**Veuillez vous connecter sur l'une des plateformes**
 
-**Pourquoi c'est impressionnant** : capacité à retranscrire ce qui semble être de l'ambiance, les personages clés et idées au-delà des faits
-**En quoi est-ce limité** : très nombreux articles écrits sur le sujet, impossible d'optenir un tel résultat sur les évènements récents et moins couverts. L'IA a fait une sorte de mélange des textes sur lesquels elle s'est entraîné. Autrement dit, l'IA ne peut **reformuler** que ce que les **journalistes ont déjà écrit**.
+| Modèle | Nécessite un compte | Lien
+| - | - | - |
+| ChatGPT 3.5/4 | Oui | [ChatGPT](https://chat.openai.com/)
+| Mistral Medium | Non | [Perplexity labs](https://labs.perplexity.ai/)
+
+#### Prise en main - [ChatGPT](https://chat.openai.com/)
+
+#### Cas 1 - Restructuration texte - [Wikipedia](https://chat.openai.com/share/e7d5e012-cde7-4447-9b4d-a8d6e6e05bdb)
+Procédé :
+1. Copier manuellement le texte de la section **organisation**
+2. Coller le texte dans ChatGPT
+3. Demander ***"Peux tu mettre l'ensemble de ces informations dans un même fichier csv ?"***
+
+Données à copier
+
+![Alt text](images/image.png)
+
+Résultat
+
+![Alt text](images/image-1.png)
 
 
-#### Cas 2 - Vision et résumé de documents - [Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) **<b>5min</b>**
+#### Cas 2 - Calcul de moyenne
+Procédé :
+1. Copier manuellement les données du tableau
+2. Coller les données dans ChatGPT
+3. Demander ""
+- [ChatGPT 3.5](https://chat.openai.com/share/9c1dca29-bc87-4dec-a148-23b6011cc45e) ne peut pas effectuer de calculs. Il donnera un **résultat faux** qui aura l'air cohérent.
+- [ChatGPT 4](https://chat.openai.com/share/7637a280-d635-4f35-8119-f6c82d644aff) le peut car utilise du code (programmation). Le **résultat sera exact** sauf exception.
+
+
+Données
+
+![Alt text](images/image-6.png)
+
+
+##### ChatGPT 3.5
+![Alt text](images/image-2.png)
+
+##### ChatGPT 4
+![Alt text](images/image-3.png)
+![Alt text](images/image-5.png)
+
+
+#### Cas 3 - Résumé, extraction d'information - [Wikipedia L'Equipe](https://chat.openai.com/share/322a071b-b542-4768-aa98-75c1b28a58ca)
+Procédé :
+1. Copier manuellement les paragraphes de la section "Historique"
+2. Coller les données dans ChatGPT
+3. Demander par exemple ***"Peux tu résumer ce texte en bullet points ?"***
+
+
+Paragraphes
+
+![Alt text](images/image-7.png)
+
+Résumé en bullet points
+
+![Alt text](images/image-8.png)
+
+
+
+[ChatGPT4](https://chat.openai.com/share/b858bcf0-becf-4c6c-82ec-d702baf2556d) permet d'extraire l'information sans nécessiter de copier-coller manuellement.
+
+1. Directement demander **"*Peux tu résumer les facteurs de l'ascension du journal "L'Equipe" en te basant sur la section "historique" de wikipedia ? Ecris ta réponse en bullet points s'il te plaît*"**
+
+![Alt text](images/image-10.png)
+
+**Parfois il y a des bugs :**
+- Comme dans [cette discussion](https://chat.openai.com/share/401c4e14-3c59-4904-8f50-fab202b59cba)
+- Il peut être utile de réessayer exactement le même prompt
+
+**Richesse et exhaustivité d'un prompt :**
+- Il est possible d'obtenir le format souhaité en plusieurs échanges de prompts / réponses [comme ici](https://chat.openai.com/share/b858bcf0-becf-4c6c-82ec-d702baf2556d).
+- Il est possible d'écrire un prompt complet (format de réponse souhaité par exemple) [comme ici](https://chat.openai.com/share/e2b90c5e-b24a-4eee-afcd-2c79057db7ea).
+
+
+#### Cas 4 - Orthographe, grammaire, conjugaison - [bullet points](https://chat.openai.com/share/e724051d-6e00-448b-9dc9-16a46881084c)
+
+L'un des plus puissants correcteurs orthographique
+
+Procédé :
+1. Simplement demander comment écrire une expression ou bien si (éventuellement dans le contexte de notre phrase) notre façon d'écrire est correcte. Par exemple ***"Lorsqu'on utilise l'expression "bullet point" au pluriel. Comment l'accorder / l'écrire ?"***
+
+![Alt text](images/image-11.png)
+
+
+
+#### Cas 5 - Apprentissage - [Maths](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>5min</b>**
+- Gain de temps potentiellement giganteque
+- Agréable, fluidifie l'apprentissage
+- Meilleure compréhension
+
+Procédé :
+- Ecrire tout simplement et sans gêne : ***"This is the official correction. I don't understand it. Please help me."***
+
+Image jointe au prompt
+
+![Alt text](images/image-12.png)
+
+Réponse de ChatGPT4 (nécessite vision et capacité transfert fichiers - ici une image)
+
+![Alt text](images/image-13.png)
+
+
+#### Cas 6 - Extraction PDF - [Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) 
 
 **Tâche 1** : **<o>extraction texte d'une image qui représente un tableur</o>**
 - **Comment** : étant une image et non un tableur Excel, nécessité extraction visuelle
@@ -109,6 +176,20 @@
   - Capable de faire le lien entre les morceaux d'images
   - Capable de comprendre suffisamment pour créer des questions-réponses cohérentes, intéressantes, utiles
 
+Procédé
+1. Fournir les parties d'image
+2. Ecrire le prompt ***"Cette image est en fait un tableau qui répertorie les valeurs et les actions à mener dans le cas d'une urgence médicale, en fonction de chaque catégorie d'âge. À partir de cette image, peux tu créer une Flashcard utilisable par Anki, où un côté est la question et l'autre côté est la réponse ?"***
+
+
+Image fournie via le prompt
+
+![Alt text](images/image-15.png)
+![Alt text](images/image-14.png)
+![Alt text](images/image-16.png)
+
+Réponse ChatGPT4
+
+![Alt text](images/image-17.png)
 
 **Tâche 2** : **<o>extraction texte d'un document PDF</o>**
 - **Type de PDF** :
@@ -116,8 +197,19 @@
   - Si **format images** : nécessite **OCR** (donc long / coûteux), ChatGPT **refusera** plusieurs pages
 - **RGPD** : Attention données sensible et privées
 
+Procédé 
+1. Ecrire le prompt ***"Voici un pdf qui contient davantage d'informations. J'aimerais créer 10 flashcards sur la section 'ligne d'attaque sur une prise d'eau'"***
+2. Fournir le [document PDF](fichiers/GTO-etablissements-techniques-extinction-2018.pdf)
 
-#### Cas 3 - Génération d'images - [Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f) **<b>3min</b>**
+Le PDF contient 112 pages, c'est seulement page 63 que se trouve l'information demandée
+
+![Alt text](images/image-19.png)
+
+Réponse (exacte et utile) de ChatGPT4
+
+![Alt text](images/image-18.png)
+
+#### Cas 7 - Génération d'images - [Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f) **<b>3min</b>**
 
 **À savoir**
 - **Résultats dépendent du modèle** utilisé (Dall-e, Midjourney, Stable Diffusion)
@@ -130,16 +222,17 @@
   - **Cohérence** du corps et détails
 
 
-#### Cas 4 - Apprentissage - [Maths](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>3min</b>**
-- Gain de temps
-- Fluidité, agréable
-- Meilleure compréhension du concept et des détails
-- Davantage de connaissance de concepts liés
-- Voir également [GPT : enseignant SQL](https://chat.openai.com/g/g-ZwIAvMGOW-sql-enseignant-fr)
+Procédé 
+1. Ecrire le prompt ***"Génère un image d'un footballer qui est en train de tirer vers les buts. Style aquarelle. Impression de vitesse et de puissance. Point de vue : comme un jeu vidéo, où on voit le joueur de dos."***
+2. Itérer : demander de générer une image similaire, en spécifiant ce que l'on souhaite modifier.
 
-#### Cas 5 - Code no-code - [Fonctions](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>3min</b>**
-- Formater des informations [exemple simplet](https://chat.openai.com/c/7f2dfbec-adf4-40be-bb15-89744c519175)
+Résultat ChatGPT4 (via Dall-e-3)
 
+![Alt text](images/image-20.png)
+
+Résultat bien plus cohérent à la troisième itération
+
+![Alt text](images/image-21.png)
 
 ------------------------------------------------------------------------
 
@@ -195,41 +288,7 @@
 
 ### Conclusion **<g>8 min</g>**
 
-#### Evolutions Journalisme x AI
-**De quel point de vue**
-- Basé sur ma compréhension de l'IA et ses différences avec l'humain.
-- Lectures impact IA sur marché de l'emploi (Gartner, Deloitte)
-- Ceci n'est pas le résultat d'une thèse scientifique mais d'une réflexion à la fois subjective et anecdotique
-
-**Hypothèses**
-- Récolte information (déplacement physique)
-- Interprétation évènements (émotions, atmosphère vs faits)
-- Volonté et désirs (choix sujet, rendu, etc.)
-
-**Détail réflexion**
-
-Avantage de l'humain, et donc complémentarité :
-- Intérêt à aller sur le terrain pour récupérer des informations qui ne sont pas disponibles, et prendre des notes sur l'atmosphère, le ressenti. Ensuite demander à ChatGPT d'aider à rédiger l'article.
-- Empathie, compréhension des situations humaines, subtilités, couverture plus profonde des histoires
-- Guider l'IA car par défaut les articles générés seront basiques, il faut le voir comme un stagiaire
-- Vérification des infos et des faits sur sources fiables, d'autant plus important dans l'ère de la désinformation
-- Intuitions : sur les sujets du moment, et ce qui est vraiment important, ce qui va plaire, intéresser, etc.
-- Retravailler le contenu basique généré par l'IA : utilisations des techniques littéraires et journalistiques pour engager et captiver le lecteur. L'IA est aujourd'hui très limitée dans ce domaine.
-- Ajouter humour, ou ton personnel humain qui accroche et rend authentique les récits.
-- Expertise spécifique d'un domaine. Bien que ChatGpt soit bon dans des domaines pointus, les journalistes possèdent des connaissances qui ne sont disponibles nulle part, ChatGpt ne peut donc pas les connaître. Des techniques, des concepts ou infos sur des sujets de niche.
-- Recul sur l'impact des histoires sur le public
-- Meilleure compréhension nuancée du contexte actuel
-- Tout ce qui est du non dit est presque innacessible aux IAs
-- Adaptabilité et créativité de l'analyse
-- Auto critique des propres biais et réflexions (ChatGpt peut le faire si on pense à lui demander)
-
-**Conclusion**
-- Davantage **outil** performant que **concurrent**
-- Certaines tâches pourraient tendre à disparaître
-- D'autres seront effectuées de manière plus **fréquente**, **large** et **en profondeur**
-
 #### LIMITES
-- **Risque de vous distraire**, peut être utile de voir ce que vous pouvez créer avant de l'utiliser, car risque d'avoir notre vision enfermée dans ses propositions.
 - **Biais**: racisme, sexisme, ne connait que la culture occidentale, et tout biais qu'on peut retrouver sur internet
 - **Cognition limitée** : chatgpt3.5, manque de compréhension des subtilités
 - **Hallucinations** : surtout chatgpt3.5
@@ -250,11 +309,14 @@ Avantage de l'humain, et donc complémentarité :
 - **Prompts évoluent** : à chaque mise à jour de modèle, et sont différents en fonction des modèles (Mistral, ChatGPT)
 
 
-#### Evolutions techniques à venir **<b>1min</b>**
-- mémoire, compréhension, actualisation, intégration applications 
+#### Alternatives
 
-#### Au-delà du no-code: APIs, RAG et Fine-tuning **<b>3 min</b>**
-- Exemple analyse ensemble des articles écrits par L'Equipe
+**ChatGPT 3.5 vs 4** **<b>1min30s</b>**
+| Version | Usage | Capacités compréhension | Multimodal | Accès |
+| - | - | - | - | - |
+| **<o>3.5</o>** | sans limite | modérées | non | [OpenAI](https://chat.openai.com/)
+| **<o>4</o>** | limité | très bonnes | oui (accès internet, lecture de document, d'images, génération d'images) | [OpenAI](https://chat.openai.com/)
+| Mistral | variable | bonnes | non | [Perplexity labs](https://labs.perplexity.ai/)
 
 
 
@@ -264,110 +326,39 @@ Avantage de l'humain, et donc complémentarité :
 
 ### Ressources
 
-#### Apprendre
-**Code & Papiers**
-- [ArxivSanity](https://arxiv-sanity-lite.com/)
-- [Algorithmes Sklearn](https://scikit-learn.org/stable/)
-- [Papers with Code](https://paperswithcode.com/sota)
-- Prompts
-  - [OpenAI prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
-  - [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
+#### Informations et cours
 
-
-**Moocs**
-- [Coursera Deep Learning Spe.](https://www.coursera.org/specializations/deep-learning)
-- [Coursera ChatGPT](https://www.coursera.org/courses?query=chatgpt)
-- [Datacamp ChatGPT](https://www.datacamp.com/courses/introduction-to-chatgpt)
-- [Datacamp LLMs](https://www.datacamp.com/blog/learn-ai-with-datacamp-new-courses-on-chatgpt-generative-ai-llms-and-more)
+**Prompts**
+- [OpenAI prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 
 **Youtube**
-- [LexFridman](https://www.youtube.com/@lexfridman)
-- [Umar Jamil](https://www.youtube.com/@umarjamilai)
-- [AI Explained](https://www.youtube.com/@aiexplained-official)
-- [CodeEmporium](https://www.youtube.com/@CodeEmporium)
 - [Matt Wolfe](https://www.youtube.com/@mreflow)
-- [code_your_own_AI](https://www.youtube.com/@code4AI)
-- [Underscore](https://www.youtube.com/@Underscore_)
 - [Wes Roth](https://www.youtube.com/@WesRoth)
 
-#### Être à jour
-**Newsletters**
-- [The Batch](https://www.deeplearning.ai/the-batch/)
+**Newsletter**
 - [Import AI](https://jack-clark.net/)
-
-**Twitter/X**
-- [Jim Fan](https://twitter.com/DrJimFan)
-- [Ian Goodfellow](https://twitter.com/goodfellow_ian)
-- [François Chollet](https://twitter.com/fchollet)
-- [Sam Altman](https://twitter.com/sama)
-- [Kyutai](https://twitter.com/kyutai_labs)
-- [Sebastian Thrun](https://twitter.com/SebastianThrun)
-- [Prof. Anima Anandkumar](https://twitter.com/AnimaAnandkumar)
-- [Thomas G. Dietterich](https://twitter.com/tdietterich)
-- [Chelsea Finn](https://twitter.com/chelseabfinn)
-- [Allen Institute for AI](https://twitter.com/allen_ai)
-- [Berkeley AI Research](https://twitter.com/berkeley_ai)
 
 #### Outils
 
 ##### Chatbots
+Accès à Mistral gratuitement:
+- [ChatGPT](https://chat.openai.com/)
 - [Poe](https://poe.com/Mistral-Medium)
 - [Perplexity labs](https://labs.perplexity.ai/)
-- [OpenAI Playground](https://platform.openai.com/playground)
-- [LLM Finder](https://llm.extractum.io/)
-- [Custom ChatGPT](https://www.chatbase.co/)
-- [Purple Llama pour evaluer la sécurité des LLMs](https://about.fb.com/news/2023/12/purple-llama-safe-responsible-ai-development/)
-- [Mistral AI](https://replicate.com/nateraw/mixtral-8x7b-32kseqlen)
-- Leaderboards
-  - [Huggin Face Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-  - https://mistral.ai/news/la-plateforme/
-  - [Julia Code Generation](https://github.com/svilupp/Julia-LLM-Leaderboard)
-  - [AI vs Human](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-  - [Matthew Berman Comparison - ChatGPT4 vs Mistral Medium](https://www.youtube.com/watch?v=S2aQpSflywA)
-
 
 ##### Images
 - Génération d'images
   - **Midjourney**: [www.midjourney.com](https://www.midjourney.com)
-  - **Leonardo AI**: [leonardo.ai](https://leonardo.ai)
-  - **Pixlr**: [pixlr.com](https://pixlr.com)
-  - **Yodayo**: [yodayo.com](https://yodayo.com)
-  - **NightCafe**: [creator.nightcafe.studio](https://creator.nightcafe.studio)
-  - **Playground AI**: [playgroundai.com](https://playgroundai.com)
-  - **Visme**: [visme.co](https://visme.co)
   - **DALL-E**: [OpenAI ou ChatGPT](https://openai.com/dall-e-3)
-  - **Deep AI**: [deepai.org](https://deepai.org)
   - **Runway AI**: [runwayml.com](https://runwayml.com)
   - **Bing Image Creator**: [Bing](https://www.bing.com)
-- Génération d'images réalistes
-  - [Midjourney V6](https://x.com/blac_ai/status/1744465413684277460?s=20) en ajoutant "posted on reddit in 2018" ou "posted on snapchat in 2018"
-  - [3D Genie](https://lumalabs.ai/genie?view=one&one=1f145227-ad46-4cc4-bc2c-81a2588da23e) : génération d'objets en 3D
 - Amélioration de la définition d'une image (upscale)
   - Leader mais payant : [Magnific.ai](https://magnific.ai/)
   - Gratuit : [Krea](https://www.krea.ai/apps/image/enhancer)
 
 ##### Vidéos
 - **Pika labs**: [pika](https://pika.art/login)
-- **Elai.io**: [elai.io](https://elai.io)
 - **Runway**: [runwayml.com](https://runwayml.com)
-- **Filmora**: [filmora.wondershare.com](https://filmora.wondershare.com)
-- **DeepBrain AI**: [deepbrain.ai](https://deepbrain.ai)
-- **Veed.io**: [veed.io](https://veed.io)
 - **Synthesia**: [synthesia.io](https://synthesia.io)
-- **Synthesys**: [synthesys.io](https://synthesys.io)
 - **D-ID**: [d-id.com](https://d-id.com)
-- **Pictory**: [pictory.ai](https://pictory.ai)
-
-##### Audio
-- [Transformer la voix en musique](https://create.musicfy.lol/)
-- [Retranscription d'un fichier audio avec insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
-- [Modifier la voix "speech to speech" - Elevenlabs](https://elevenlabs.io/)
-- **Google Speech-to-Text**: [cloud.google.com/speech-to-text](https://cloud.google.com/speech-to-text)
-- **IBM Watson Speech to Text**: [www.ibm.com/cloud/watson-speech-to-text](https://www.ibm.com/cloud/watson-speech-to-text)
-- **Rev.com**: [www.rev.com](https://www.rev.com)
-- **Otter.ai**: [otter.ai](https://otter.ai)
-- **Sonix**: [sonix.ai](https://sonix.ai)
-- **Trint**: [www.trint.com](https://www.trint.com)
-- **Amberscript**: [www.amberscript.com](https://www.amberscript.com)
-- **Descript**: [www.descript.com](https://www.descript.com)
-- **Happy Scribe**: [www.happyscribe.com](https://www.happyscribe.com)
