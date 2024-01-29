@@ -150,9 +150,9 @@
 **Objectif** : découvrir l'excellence du modèle en terme d'**interprétation du langage** et connaissance des **formulations dans différentes langues**. Il ne s'agit pas d'une traduction littérale.
 
 **Mission**
-- Trouver un texte en français qui est complexe et subtile
+- Trouver un texte en français qui est complexe et subtil
 - Le traduire en anglais via ChatGPT
-- Demander de reformuler les parties qui ne convienennt pas
+- Demander de reformuler les parties qui ne conviennent pas
 
 #### Génération de contenu **<b>5min</b>**
 **Ojbectif** : appréhender le niveau (mitigé) de créativité du modèle
