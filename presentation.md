@@ -239,14 +239,15 @@ Avantage de l'humain, et donc complémentarité :
 
 
 ### Ressources
-- Lien OpenAI comment écrire un prompt
-- [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 
 #### Apprendre
 Code & Papiers
 - [ArxivSanity](https://arxiv-sanity-lite.com/)
 - [Algorithmes Sklearn](https://scikit-learn.org/stable/)
 - [Papers with Code](https://paperswithcode.com/sota)
+- Prompts
+  - [OpenAI prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
+  - [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 
 Moocs
 - [Coursera Deep Learning Spe.](https://www.coursera.org/specializations/deep-learning)
