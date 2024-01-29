@@ -161,7 +161,8 @@ Veuillez effectuer les exercices communs suivants
 - Demander de développer une section du plan
 
 #### Exercices spécifiques
-[Clicker ce lien : Enoncé exercices spécifiques](exercices.md)
+- Basez-vous sur les méthodes de prompt engineering [recommandées par OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Clicker ce lien : Enoncé exercices spécifiques](exercices.md)
 
 
 ------------------------------------------------------------------------
@@ -187,7 +188,7 @@ Veuillez effectuer les exercices communs suivants
 
 
 #### LIMITES
-- Risque de vous distraire, peut être utile de voir ce que vous pouvez créer avant de l'utiliser, car risque d'avoir notre vision enfermée dans ses propositions.
+- **Risque de vous distraire**, peut être utile de voir ce que vous pouvez créer avant de l'utiliser, car risque d'avoir notre vision enfermée dans ses propositions.
 - **Biais**: racisme, sexisme, ne connait que la culture occidentale, et tout biais qu'on peut retrouver sur internet
 - **Cognition limitée** : chatgpt3.5, manque de compréhension des subtilités
 - **Hallucinations** : surtout chatgpt3.5
