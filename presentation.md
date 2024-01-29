@@ -206,6 +206,7 @@ Veuillez effectuer les exercices communs suivants
 - **Bridé dans ses réponses** : précisément pour éviter les problèmes (n'est pas censé donner de conseils financiers, santé, etc). Mais jail breakable facilement (méthode "imagine ...", méthode via manipulation)
 - **Dépendance langage d'entrée** : comprend et parle mieux l'anglais que toute autre langue. Très limité dans les langues peu représentées sur internet
 - **Limitations en pensée abstraite** : Même si deja très avancé, compliqué pour des métaphores bien adaptée (mais bon pour exemples, puisque ne nécessite pas le même degré d'abstraction)
+- **Prompts évoluent** : à chaque mise à jour de modèle, et sont différents en fonction des modèles (Mistral, ChatGPT)
 
 
 #### Evolutions techniques à venir **<b>1min</b>**
