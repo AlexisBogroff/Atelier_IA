@@ -91,7 +91,7 @@ Résultat
 Procédé :
 1. Copier manuellement les données du tableau
 2. Coller les données dans ChatGPT
-3. Demander ""
+3. Demander ***"Peux tu calculer la moyenne de la ligne "edition générale" au cours des années dans les données suivantes ?"***
 - [ChatGPT 3.5](https://chat.openai.com/share/9c1dca29-bc87-4dec-a148-23b6011cc45e) ne peut pas effectuer de calculs. Il donnera un **résultat faux** qui aura l'air cohérent.
 - [ChatGPT 4](https://chat.openai.com/share/7637a280-d635-4f35-8119-f6c82d644aff) le peut car utilise du code (programmation). Le **résultat sera exact** sauf exception.
 
