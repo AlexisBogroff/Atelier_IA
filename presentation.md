@@ -181,6 +181,23 @@ Veuillez effectuer les exercices communs suivants
 - Interprétation évènements (émotions, atmosphère vs faits)
 - Volonté et désirs (choix sujet, rendu, etc.)
 
+**Détail réflexion**
+
+Avantage de l'humain, et donc complémentarité :
+- Intérêt à aller sur le terrain pour récupérer des informations qui ne sont pas disponibles, et prendre des notes sur l'atmosphère, le ressenti. Ensuite demander à ChatGPT d'aider à rédiger l'article.
+- Empathie, compréhension des situations humaines, subtilités, couverture plus profonde des histoires
+- Guider l'IA car par défaut les articles générés seront basiques, il faut le voir comme un stagiaire
+- Vérification des infos et des faits sur sources fiables, d'autant plus important dans l'ère de la désinformation
+- Intuitions : sur les sujets du moment, et ce qui est vraiment important, ce qui va plaire, intéresser, etc.
+- Retravailler le contenu basique généré par l'IA : utilisations des techniques littéraires et journalistiques pour engager et captiver le lecteur. L'IA est aujourd'hui très limitée dans ce domaine.
+- Ajouter humour, ou ton personnel humain qui accroche et rend authentique les récits.
+- Expertise spécifique d'un domaine. Bien que ChatGpt soit bon dans des domaines pointus, les journalistes possèdent des connaissances qui ne sont disponibles nulle part, ChatGpt ne peut donc pas les connaître. Des techniques, des concepts ou infos sur des sujets de niche.
+- Recul sur l'impact des histoires sur le public
+- Meilleure compréhension nuancée du contexte actuel
+- Tout ce qui est du non dit est presque innacessible aux IAs
+- Adaptabilité et créativité de l'analyse
+- Auto critique des propres biais et réflexions (ChatGpt peut le faire si on pense à lui demander)
+
 **Conclusion**
 - Davantage **outil** performant que **concurrent**
 - Certaines tâches pourraient tendre à disparaître
