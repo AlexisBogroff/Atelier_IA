@@ -237,17 +237,108 @@ Avantage de l'humain, et donc complémentarité :
 ------------------------------------------------------------------------
 
 
-### Ressources **<g>2 min</g>**
+
+### Ressources
 - Lien OpenAI comment écrire un prompt
 - [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 
-#### Apprendre **<b>30s</b>**
+#### Apprendre
+Code & Papiers
+- [ArxivSanity](https://arxiv-sanity-lite.com/)
+- [Algorithmes Sklearn](https://scikit-learn.org/stable/)
+- [Papers with Code](https://paperswithcode.com/sota)
 
-#### Être à jour **<b>30s</b>**
+Moocs
+- [Coursera Deep Learning Spe.](https://www.coursera.org/specializations/deep-learning)
+- [Coursera ChatGPT](https://www.coursera.org/courses?query=chatgpt)
+- [Datacamp ChatGPT](https://www.datacamp.com/courses/introduction-to-chatgpt)
+- [Datacamp LLMs](https://www.datacamp.com/blog/learn-ai-with-datacamp-new-courses-on-chatgpt-generative-ai-llms-and-more)
 
-#### Outils **<b>1min</b>**
+Youtube
+- [LexFridman](https://www.youtube.com/@lexfridman)
+- [Umar Jamil](https://www.youtube.com/@umarjamilai)
+- [AI Explained](https://www.youtube.com/@aiexplained-official)
+- [CodeEmporium](https://www.youtube.com/@CodeEmporium)
+- [Matt Wolfe](https://www.youtube.com/@mreflow)
+- [code_your_own_AI](https://www.youtube.com/@code4AI)
+- [Underscore](https://www.youtube.com/@Underscore_)
+- [Wes Roth](https://www.youtube.com/@WesRoth)
 
-**Génération d'images**
-- Dall-e-3 : https://openai.com/dall-e-3 (accessible via ChatGPT4 et Bing)
+#### Être à jour
+Newsletters
+- [The Batch](https://www.deeplearning.ai/the-batch/)
+- [Import AI](https://jack-clark.net/)
+
+Twitter/X
+- [Jim Fan](https://twitter.com/DrJimFan)
+- [Ian Goodfellow](https://twitter.com/goodfellow_ian)
+- [François Chollet](https://twitter.com/fchollet)
+- [Sam Altman](https://twitter.com/sama)
+- [Kyutai](https://twitter.com/kyutai_labs)
+- [Sebastian Thrun](https://twitter.com/SebastianThrun)
+- [Prof. Anima Anandkumar](https://twitter.com/AnimaAnandkumar)
+- [Thomas G. Dietterich](https://twitter.com/tdietterich)
+- [Chelsea Finn](https://twitter.com/chelseabfinn)
+- [Allen Institute for AI](https://twitter.com/allen_ai)
+- [Berkeley AI Research](https://twitter.com/berkeley_ai)
+
+#### Outils
+
+##### Chatbots
+- [Poe](https://poe.com/Mistral-Medium)
+- [Perplexity labs](https://labs.perplexity.ai/)
+- [OpenAI Playground](https://platform.openai.com/playground)
+- [LLM Finder](https://llm.extractum.io/)
+- [Custom ChatGPT](https://www.chatbase.co/)
+- [Purple Llama pour evaluer la sécurité des LLMs](https://about.fb.com/news/2023/12/purple-llama-safe-responsible-ai-development/)
+- [Mistral AI](https://replicate.com/nateraw/mixtral-8x7b-32kseqlen)
+
+
+##### Images
+- Génération d'images
+  - **Midjourney**: [www.midjourney.com](https://www.midjourney.com)
+  - **Leonardo AI**: [leonardo.ai](https://leonardo.ai)
+  - **Pixlr**: [pixlr.com](https://pixlr.com)
+  - **Yodayo**: [yodayo.com](https://yodayo.com)
+  - **NightCafe**: [creator.nightcafe.studio](https://creator.nightcafe.studio)
+  - **Playground AI**: [playgroundai.com](https://playgroundai.com)
+  - **Visme**: [visme.co](https://visme.co)
+  - **DALL-E**: [OpenAI ou ChatGPT](https://openai.com/dall-e-3)
+  - **Deep AI**: [deepai.org](https://deepai.org)
+  - **Runway AI**: [runwayml.com](https://runwayml.com)
+  - **Bing Image Creator**: [Bing](https://www.bing.com)
+- Génération d'images réalistes
+  - [Midjourney V6](https://x.com/blac_ai/status/1744465413684277460?s=20) en ajoutant "posted on reddit in 2018" ou "posted on snapchat in 2018"
+  - [3D Genie](https://lumalabs.ai/genie?view=one&one=1f145227-ad46-4cc4-bc2c-81a2588da23e) : génération d'objets en 3D
+- Amélioration de la définition d'une image (upscale)
+  - Leader mais payant : [Magnific.ai](https://magnific.ai/)
+  - Gratuit : [Krea](https://www.krea.ai/apps/image/enhancer)
+
+##### Vidéos
+- **Pika labs**: [pika](https://pika.art/login)
+- **Elai.io**: [elai.io](https://elai.io)
+- **Runway**: [runwayml.com](https://runwayml.com)
+- **Filmora**: [filmora.wondershare.com](https://filmora.wondershare.com)
+- **DeepBrain AI**: [deepbrain.ai](https://deepbrain.ai)
+- **Veed.io**: [veed.io](https://veed.io)
+- **Synthesia**: [synthesia.io](https://synthesia.io)
+- **Synthesys**: [synthesys.io](https://synthesys.io)
+- **D-ID**: [d-id.com](https://d-id.com)
+- **Pictory**: [pictory.ai](https://pictory.ai)
+
+##### Audio
+- [Transformer la voix en musique](https://create.musicfy.lol/)
+- [Retranscription d'un fichier audio avec insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
+- [Modifier la voix "speech to speech" - Elevenlabs](https://elevenlabs.io/)
+- **Google Speech-to-Text**: [cloud.google.com/speech-to-text](https://cloud.google.com/speech-to-text)
+- **IBM Watson Speech to Text**: [www.ibm.com/cloud/watson-speech-to-text](https://www.ibm.com/cloud/watson-speech-to-text)
+- **Rev.com**: [www.rev.com](https://www.rev.com)
+- **Otter.ai**: [otter.ai](https://otter.ai)
+- **Sonix**: [sonix.ai](https://sonix.ai)
+- **Trint**: [www.trint.com](https://www.trint.com)
+- **Amberscript**: [www.amberscript.com](https://www.amberscript.com)
+- **Descript**: [www.descript.com](https://www.descript.com)
+- **Happy Scribe**: [www.happyscribe.com](https://www.happyscribe.com)
+
 
 
