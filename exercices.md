@@ -76,3 +76,8 @@
 
 2. **Scénario de Médiation :**
    - Créez un scénario de conflit au travail et utilisez ChatGPT pour élaborer une stratégie de résolution.
+
+---
+
+**Général**
+- (ChatGPT4) Générer une image en spécifiant : Arrière-plan, Style artistique, Focale, Point de vue, Éclairage, Couleurs, Composition, Atmosphère
