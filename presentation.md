@@ -293,6 +293,12 @@ Twitter/X
 - [Custom ChatGPT](https://www.chatbase.co/)
 - [Purple Llama pour evaluer la sécurité des LLMs](https://about.fb.com/news/2023/12/purple-llama-safe-responsible-ai-development/)
 - [Mistral AI](https://replicate.com/nateraw/mixtral-8x7b-32kseqlen)
+- Leaderboards
+  - [Huggin Face Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+  - https://mistral.ai/news/la-plateforme/
+  - [Julia Code Generation](https://github.com/svilupp/Julia-LLM-Leaderboard)
+  - [AI vs Human](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+  - [Matthew Berman Comparison - ChatGPT4 vs Mistral Medium](https://www.youtube.com/watch?v=S2aQpSflywA)
 
 
 ##### Images
