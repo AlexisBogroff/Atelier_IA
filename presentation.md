@@ -2,30 +2,31 @@
 
 ### Déroulement
 
-**Introduction**                            **<g>3 min</g>**
-- Présentation objectifs                    **<b>30s</b>**
-- Votre mentor du jour                      **<b>1min</b>**
-- Présentation du plan                      **<b>30s</b>**
-- Vocabulaire ChatGPT                       **<b>1min</b>**
+**[Introduction](#introduction)** **<g>5 min</g>**
+- Présentation objectifs
+- Votre mentor du jour
+- Présentation du plan
+- Vocabulaire ChatGPT
 
-**Demonstrations**                          **<g>26 min</g>**
-- Cas n°0 : Utilisation de ChatGPT          **<b>6min</b>**
-- Cas n°1 : Apprentissage                   **<b>4min</b>**
-- Cas n° : Génération de contenu           **<b>4min</b>**
-- Cas n° : Code no-code                    **<b>3min</b>**
-- Cas n° : Vision et résumé de documents   **<b>6min</b>**
-- Cas n° : Génération d'images             **<b>3min</b>**
+**[Demonstrations](#démonstrations)** **<g>30 min</g>**
+- Cas 1 - [Restructuration texte](#cas-1---restructuration-texte)
+- Cas 2 - [Calcul de moyenne](#cas-2---calcul-de-moyenne)
+- Cas 3 - [Résumé, extraction d'information](#cas-3---résumé-extraction-dinformation)
+- Cas 4 - [Orthographe, grammaire, conjugaison](#cas-4---orthographe-grammaire-conjugaison)
+- Cas 5 - [Apprentissage](#cas-5---apprentissage)
+- Cas 6 - [Extraction de PDF](#cas-6---extraction-pdf)
+- Cas 7 - [Génération d'images](#cas-7---génération-dimages)
 
-**Exercices**                               **<g>1 h</g>**
-- Ex. n°1 : Traduction                      **<b>5min</b>**
-- Ex. n°2 : Génération de contenu           **<b>5min</b>**
-- Ex. n°3 : Assistant                       **<b>5min</b>**
-- Ex. n°4 : Apprentissage                   **<b>5min</b>**
-- Exercices spécifiques                     **<b>40min</b>**
+**[Exercices](#exercices)** **<g>50 min</g>**
+- Ex. n°1 : Traduction
+- Ex. n°2 : Génération de contenu
+- Ex. n°3 : Assistant
+- Ex. n°4 : Apprentissage
+- Exercices spécifiques
 
-**Conclusion**                              **<g>7 min</g>**
-- Limites ChatGPT                           **<b>5min</b>**
-- Alternatives ChatGPT                      **<b>2min</b>**
+**[Conclusion](#conclusion)** **<g>5 min</g>**
+- Limites ChatGPT
+- Alternatives ChatGPT
 
 **Ressources**
 
@@ -35,21 +36,21 @@
 ------------------------------------------------------------------------
 
 
-### Introduction **<g>3 min</g>**
+### Introduction
 
 
-#### Objectifs **<b>30s</b>**
+#### Objectifs
 - **Prise en main** de ChatGPT
 - **Connaissances** possibilités, limites
 
-#### Mentor du jour **<b>1min</b>**
+#### Mentor du jour
 - **Enseignant** IA et Data Science (+ 5 ans)
 - Ecole ingénieur, Université, Centres de formation
 - Premières certifications IA 2017 (7 ans)
 - Programmation (VBA Excel, Python) il y a 7-15 ans
 - Pourquoi IA me passionne ?
 
-**Vocabulaire : Prompt, contexte** **<b>1min</b>**
+**Vocabulaire : Prompt, contexte**
 - **Prompt** : La demande, ce que vous écrivez à ChatGPT
 - **Contexte** : La demande **<o>+</o>** demandes précédentes **<o>+</o>** fichiers éventuellement
 
@@ -58,7 +59,7 @@
 
 
 
-### Démonstrations **<g>30 min</g>**
+### Démonstrations
 
 **Veuillez vous connecter sur l'une des plateformes**
 
@@ -69,7 +70,9 @@
 
 #### Prise en main - [ChatGPT](https://chat.openai.com/)
 
-#### Cas 1 - Restructuration texte - [Wikipedia](https://chat.openai.com/share/e7d5e012-cde7-4447-9b4d-a8d6e6e05bdb)
+#### Cas 1 - Restructuration texte
+[Wikipedia](https://chat.openai.com/share/e7d5e012-cde7-4447-9b4d-a8d6e6e05bdb)
+
 Procédé :
 1. Copier manuellement le texte de la section **organisation**
 2. Coller le texte dans ChatGPT
@@ -106,7 +109,9 @@ Données
 ![Alt text](images/image-5.png)
 
 
-#### Cas 3 - Résumé, extraction d'information - [Wikipedia L'Equipe](https://chat.openai.com/share/322a071b-b542-4768-aa98-75c1b28a58ca)
+#### Cas 3 - Résumé, extraction d'information
+[Wikipedia L'Equipe](https://chat.openai.com/share/322a071b-b542-4768-aa98-75c1b28a58ca)
+
 Procédé :
 1. Copier manuellement les paragraphes de la section "Historique"
 2. Coller les données dans ChatGPT
@@ -138,7 +143,8 @@ Résumé en bullet points
 - Il est possible d'écrire un prompt complet (format de réponse souhaité par exemple) [comme ici](https://chat.openai.com/share/e2b90c5e-b24a-4eee-afcd-2c79057db7ea).
 
 
-#### Cas 4 - Orthographe, grammaire, conjugaison - [bullet points](https://chat.openai.com/share/e724051d-6e00-448b-9dc9-16a46881084c)
+#### Cas 4 - Orthographe, grammaire, conjugaison
+[bullet points](https://chat.openai.com/share/e724051d-6e00-448b-9dc9-16a46881084c)
 
 L'un des plus puissants correcteurs orthographique
 
@@ -149,7 +155,8 @@ Procédé :
 
 
 
-#### Cas 5 - Apprentissage - [Maths](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>5min</b>**
+#### Cas 5 - Apprentissage
+[Maths](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368)
 - Gain de temps potentiellement giganteque
 - Agréable, fluidifie l'apprentissage
 - Meilleure compréhension
@@ -166,7 +173,8 @@ Réponse de ChatGPT4 (nécessite vision et capacité transfert fichiers - ici un
 ![Alt text](images/image-13.png)
 
 
-#### Cas 6 - Extraction PDF - [Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) 
+#### Cas 6 - Extraction PDF
+[Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) 
 
 **Tâche 1** : **<o>extraction texte d'une image qui représente un tableur</o>**
 - **Comment** : étant une image et non un tableur Excel, nécessité extraction visuelle
@@ -209,7 +217,9 @@ Réponse (exacte et utile) de ChatGPT4
 
 ![Alt text](images/image-18.png)
 
-#### Cas 7 - Génération d'images - [Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f) **<b>3min</b>**
+
+#### Cas 7 - Génération d'images
+[Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f)
 
 **À savoir**
 - **Résultats dépendent du modèle** utilisé (Dall-e, Midjourney, Stable Diffusion)
@@ -237,9 +247,9 @@ Résultat bien plus cohérent à la troisième itération
 ------------------------------------------------------------------------
 
 
-### Exercices **<g>50min</g>**
+### Exercices
 
-#### Traduction **<b>5min</b>**
+#### Traduction
 **Objectif** : découvrir l'excellence du modèle en terme d'**interprétation du langage** et connaissance des **formulations dans différentes langues**. Il ne s'agit pas d'une traduction littérale.
 
 **Mission**
@@ -247,14 +257,14 @@ Résultat bien plus cohérent à la troisième itération
 - Le traduire en anglais via ChatGPT
 - Demander de reformuler les parties qui ne conviennent pas
 
-#### Génération de contenu **<b>5min</b>**
+#### Génération de contenu
 **Ojbectif** : appréhender le niveau (mitigé) de créativité du modèle
 
 **Mission**
 - Demander à ChatGPT de générer des textes pour : un titre d'article, la description d'un sport, un poème, une blague.
 - Essayez d'améliorer les résultats en conseillant ChatGPT
 
-#### Assistant **<b>5min</b>**
+#### Assistant
 
 **Objectif** : comprendre la structure classique d'un prompt pour des résultats efficaces
 
@@ -264,7 +274,7 @@ Résultat bien plus cohérent à la troisième itération
 - Demander de développer une section du plan
 
 
-#### Apprentissage **<b>5min</b>**
+#### Apprentissage
 
 **Objectif** : Découvrir comment apprendre efficacement et de manière personalisée
 
@@ -274,7 +284,7 @@ Résultat bien plus cohérent à la troisième itération
 - Sois-même essayer de reformuler et demander à ChatGPT si notre compréhension est correcte
 
 
-#### Exercices spécifiques **<b>30min</b>**
+#### Exercices spécifiques
 - Effectuez les exercices qui correspondent à votre métier
   - Basez-vous sur les méthodes de prompt engineering [recommandées par OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
   - Notamment exploitez la puissance de **chain-of-thoughts**
@@ -286,7 +296,7 @@ Résultat bien plus cohérent à la troisième itération
 ------------------------------------------------------------------------
 
 
-### Conclusion **<g>8 min</g>**
+### Conclusion
 
 #### LIMITES
 - **Biais**: racisme, sexisme, ne connait que la culture occidentale, et tout biais qu'on peut retrouver sur internet
