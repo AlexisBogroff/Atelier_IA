@@ -1,5 +1,3 @@
-
-
 ## Atelier IA
 
 ### Déroulement
@@ -16,13 +14,18 @@
   - 3.5 vs 4 : limitations utilisation **<b>30s</b>**
 
 **Demonstrations** **<g>20 min</g>**
-- Cas d'usages courants **<b>10min</b>**
-  - Cas 1 - Vision et résumé de documents
-- Cas d'usage sondage **<b>10min</b>**
-  - Cas 1 - Génération d'images
+- Cas n°1 : Génération de contenu           **<b>4min</b>**
+- Cas n°2 : Vision et résumé de documents   **<b>6min</b>**
+- Cas n°3 : Génération d'images             **<b>3min</b>**
+- Cas n°4 : Apprentissage                   **<b>4min</b>**
+- Cas n°5 : Code no-code                    **<b>3min</b>**
 
 **Exercices** **<g>50 min</g>**
-- Au choix **<b>50 min</b>**
+- Ex. n°1 : Traduction **<b>5</b>**
+- Ex. n°2 : Génération de contenu **<b>5</b>**
+- Ex. n°3 : Assistant **<b>5</b>**
+- Ex. n°4 : Apprentissage **<b>5</b>**
+- Exercices spécifiques **<b>30</b>**
 
 **Conclusion** **<g>8 min</g>**
 - Evolutions Journalisme x AI **<b>4min</b>**
@@ -33,6 +36,7 @@
 - Apprendre **<b>30s</b>**
 - Être à jour **<b>30s</b>**
 - Outils **<b>1min</b>**
+
 
 
 ------------------------------------------------------------------------
@@ -79,6 +83,7 @@
 | - | - | - | - |
 | **<o>3.5</o>** | sans limite | modérées | non |
 | **<o>4</o>** | limité | très bonnes | oui (accès internet, lecture de document, d'images, génération d'images) |
+| Mistral | variable | bonnes | non |
 
 
 
@@ -88,10 +93,13 @@
 
 ### Démonstrations **<g>20 min</g>**
 
+#### Cas 1 - Génération de contenu - [Revivre match France-Brésil 98](https://chat.openai.com/share/b36f982a-5b5a-496f-9b9a-d4c9858c736e) **<b>3min</b>**
 
-#### Cas d'usages **<b>10min</b>**
+**Pourquoi c'est impressionnant** : capacité à retranscrire ce qui semble être de l'ambiance, les personages clés et idées au-delà des faits
+**En quoi est-ce limité** : très nombreux articles écrits sur le sujet, impossible d'optenir un tel résultat sur les évènements récents et moins couverts. L'IA a fait une sorte de mélange des textes sur lesquels elle s'est entraîné. Autrement dit, l'IA ne peut **reformuler** que ce que les **journalistes ont déjà écrit**.
 
-##### Cas 1 - Vision et résumé de documents - [Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) **<b>7min</b>**
+
+#### Cas 2 - Vision et résumé de documents - [Application Pompiers Anki](https://chat.openai.com/c/4bc70455-19ef-4a6b-8baf-de7f931ae875) **<b>5min</b>**
 
 **Tâche 1** : **<o>extraction texte d'une image qui représente un tableur</o>**
 - **Comment** : étant une image et non un tableur Excel, nécessité extraction visuelle
@@ -109,13 +117,7 @@
 - **RGPD** : Attention données sensible et privées
 
 
-
-
-##### Cas 2. [Résumé match de la veille]() **<b>5min</b>**
-- **Chain-of-Thoughts** : demander à ChatGPT de s'analyser, puis d'améliorer sa réponse précédente permet d'améliorer les résultats.
-
-
-##### Cas 1 - Génération d'images - [Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f) **<b>3min</b>**
+#### Cas 3 - Génération d'images - [Dall-e-3 via ChatGPT](https://chat.openai.com/c/d276cbac-3278-49ff-9bce-a0f153885c2f) **<b>3min</b>**
 
 **À savoir**
 - **Résultats dépendent du modèle** utilisé (Dall-e, Midjourney, Stable Diffusion)
@@ -128,15 +130,23 @@
   - **Cohérence** du corps et détails
 
 
+#### Cas 4 - Apprentissage - [Maths](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>3min</b>**
+- Gain de temps
+- Fluidité, agréable
+- Meilleure compréhension du concept et des détails
+- Davantage de connaissance de concepts liés
+- Voir également [GPT : enseignant SQL](https://chat.openai.com/g/g-ZwIAvMGOW-sql-enseignant-fr)
+
+#### Cas 5 - Code no-code - [Fonctions](https://chat.openai.com/c/c625296c-8b86-4aa1-b2f1-daf903eb0368) **<b>3min</b>**
+- Formater des informations [exemple simplet](https://chat.openai.com/c/7f2dfbec-adf4-40be-bb15-89744c519175)
+
 
 ------------------------------------------------------------------------
 
 
-### Exercices
+### Exercices **<g>50min</g>**
 
-Veuillez effectuer les exercices communs suivants
-
-#### Traduction
+#### Traduction **<b>5min</b>**
 **Objectif** : découvrir l'excellence du modèle en terme d'**interprétation du langage** et connaissance des **formulations dans différentes langues**. Il ne s'agit pas d'une traduction littérale.
 
 **Mission**
@@ -144,14 +154,14 @@ Veuillez effectuer les exercices communs suivants
 - Le traduire en anglais via ChatGPT
 - Demander de reformuler les parties qui ne convienennt pas
 
-#### Génération de contenu
+#### Génération de contenu **<b>5min</b>**
 **Ojbectif** : appréhender le niveau (mitigé) de créativité du modèle
 
 **Mission**
 - Demander à ChatGPT de générer des textes pour : un titre d'article, la description d'un sport, un poème, une blague.
 - Essayez d'améliorer les résultats en conseillant ChatGPT
 
-#### Assistant
+#### Assistant **<b>5min</b>**
 
 **Objectif** : comprendre la structure classique d'un prompt pour des résultats efficaces
 
@@ -160,9 +170,24 @@ Veuillez effectuer les exercices communs suivants
 - Demander de modifier le plan pour qu'il corresponde davantage aux besoins
 - Demander de développer une section du plan
 
-#### Exercices spécifiques
-- Basez-vous sur les méthodes de prompt engineering [recommandées par OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
-- [Clicker ce lien : Enoncé exercices spécifiques](exercices.md)
+
+#### Apprentissage **<b>5min</b>**
+
+**Objectif** : Découvrir comment apprendre efficacement et de manière personalisée
+
+**Mission**
+- Découvrir un nouveau sujet (sport peu connu, méthode de comptabilité, d'écriture, d'organisation, etc.)
+- Demander de reformuler, d'expliquer en détail, de donner des exemples, des métaphores.
+- Sois-même essayer de reformuler et demander à ChatGPT si notre compréhension est correcte
+
+
+#### Exercices spécifiques **<b>30min</b>**
+- Effectuez les exercices qui correspondent à votre métier
+  - Basez-vous sur les méthodes de prompt engineering [recommandées par OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
+  - Notamment exploitez la puissance de **chain-of-thoughts**
+  - Inspirez vous éventuellemnt de ces exercices pour effectuer une tâche réelle
+  - [Clicker ce lien : Enoncé exercices spécifiques](exercices.md)
+
 
 
 ------------------------------------------------------------------------
@@ -203,7 +228,6 @@ Avantage de l'humain, et donc complémentarité :
 - Certaines tâches pourraient tendre à disparaître
 - D'autres seront effectuées de manière plus **fréquente**, **large** et **en profondeur**
 
-
 #### LIMITES
 - **Risque de vous distraire**, peut être utile de voir ce que vous pouvez créer avant de l'utiliser, car risque d'avoir notre vision enfermée dans ses propositions.
 - **Biais**: racisme, sexisme, ne connait que la culture occidentale, et tout biais qu'on peut retrouver sur internet
@@ -230,7 +254,7 @@ Avantage de l'humain, et donc complémentarité :
 - mémoire, compréhension, actualisation, intégration applications 
 
 #### Au-delà du no-code: APIs, RAG et Fine-tuning **<b>3 min</b>**
-- Exemple analyse ensemble des articles écrits par le journal
+- Exemple analyse ensemble des articles écrits par L'Equipe
 
 
 
@@ -241,7 +265,7 @@ Avantage de l'humain, et donc complémentarité :
 ### Ressources
 
 #### Apprendre
-Code & Papiers
+**Code & Papiers**
 - [ArxivSanity](https://arxiv-sanity-lite.com/)
 - [Algorithmes Sklearn](https://scikit-learn.org/stable/)
 - [Papers with Code](https://paperswithcode.com/sota)
@@ -249,13 +273,14 @@ Code & Papiers
   - [OpenAI prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
   - [Prompt Engineering Roadmap](https://roadmap.sh/prompt-engineering)
 
-Moocs
+
+**Moocs**
 - [Coursera Deep Learning Spe.](https://www.coursera.org/specializations/deep-learning)
 - [Coursera ChatGPT](https://www.coursera.org/courses?query=chatgpt)
 - [Datacamp ChatGPT](https://www.datacamp.com/courses/introduction-to-chatgpt)
 - [Datacamp LLMs](https://www.datacamp.com/blog/learn-ai-with-datacamp-new-courses-on-chatgpt-generative-ai-llms-and-more)
 
-Youtube
+**Youtube**
 - [LexFridman](https://www.youtube.com/@lexfridman)
 - [Umar Jamil](https://www.youtube.com/@umarjamilai)
 - [AI Explained](https://www.youtube.com/@aiexplained-official)
@@ -266,11 +291,11 @@ Youtube
 - [Wes Roth](https://www.youtube.com/@WesRoth)
 
 #### Être à jour
-Newsletters
+**Newsletters**
 - [The Batch](https://www.deeplearning.ai/the-batch/)
 - [Import AI](https://jack-clark.net/)
 
-Twitter/X
+**Twitter/X**
 - [Jim Fan](https://twitter.com/DrJimFan)
 - [Ian Goodfellow](https://twitter.com/goodfellow_ian)
 - [François Chollet](https://twitter.com/fchollet)
@@ -346,6 +371,3 @@ Twitter/X
 - **Amberscript**: [www.amberscript.com](https://www.amberscript.com)
 - **Descript**: [www.descript.com](https://www.descript.com)
 - **Happy Scribe**: [www.happyscribe.com](https://www.happyscribe.com)
-
-
-
